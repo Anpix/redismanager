@@ -94,7 +94,7 @@ const Dashboard = (props: any) => {
             <ProFormSwitch name="Selected" hidden={true} />
         </ProForm.Group>
         <ProForm.Group>
-            <ProFormText width="md" name="Addrs" label="Node Address&nbsp;" placeholder="host:port" tooltip="Clsuter nodes will be detected automatically" rules={[
+            <ProFormText width="md" name="Addrs" label="Node Address&nbsp;" placeholder="host:port" tooltip="Cluster nodes will be detected automatically" rules={[
                 { required: true, message: 'Node address are required' },
                 () => ({
                     validator(_, value: string) {
